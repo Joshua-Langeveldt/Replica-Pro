@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h5 {
+
+    text-align: center;
+
+}
+
+body {
+
+    background-color: blue;
+    color: antiquewhite;
+}
+
+/*NavBar Styling*/
+
+nav {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    border-bottom-style: dotted;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+th,td {
+  color:white;
+    font-size: 20px;
+border-bottom:1px solid white ;
+padding: 18px;
+
+    
+}
+
+.container {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+img{
+
+    border-radius: 35px;
+}
+
+
+
+
+
+
+
+
+
+
